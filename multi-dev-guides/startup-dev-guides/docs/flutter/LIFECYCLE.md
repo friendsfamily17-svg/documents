@@ -1,5 +1,12 @@
 # Flutter Application Lifecycle
 
+## Table of contents
+- Overview
+- Application states
+- Managing lifecycle
+- Best practices
+- Conclusion
+
 ## Overview
 The Flutter application lifecycle consists of various states that an app can be in during its execution. Understanding these states is crucial for managing resources, handling user interactions, and ensuring a smooth user experience.
 

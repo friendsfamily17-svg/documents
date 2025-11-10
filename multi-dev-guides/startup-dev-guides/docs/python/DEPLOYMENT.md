@@ -1,5 +1,13 @@
 # Deployment Guidelines for Python Applications
 
+## Table of contents
+- Overview
+- Deployment environments
+- Strategies
+- Platform-specific considerations
+- Best practices
+- Conclusion
+
 ## Overview
 This document provides guidelines for deploying Python applications across various environments. It covers platform-specific considerations, deployment tools, and best practices to ensure a smooth deployment process.
 

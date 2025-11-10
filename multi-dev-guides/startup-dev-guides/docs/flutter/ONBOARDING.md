@@ -1,5 +1,12 @@
 # ONBOARDING.md
 
+## Table of contents
+- Overview
+- Setup
+- Development workflow
+- Best practices
+- Getting help
+
 ## Onboarding Guide for Flutter Developers
 
 Welcome to the Flutter development team! This document serves as a comprehensive onboarding guide to help you get started with Flutter development. Below are the essential steps, tools, and resources you will need.

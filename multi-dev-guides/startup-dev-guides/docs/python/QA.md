@@ -1,5 +1,12 @@
 # Quality Assurance Processes for Python Development
 
+## Table of contents
+- Overview
+- Testing strategies
+- Testing tools
+- Best practices
+- Conclusion
+
 ## Overview
 Quality Assurance (QA) is a critical aspect of the software development lifecycle, ensuring that the final product meets the required standards and functions as intended. This document outlines the QA processes specific to Python development, including testing strategies, tools, and best practices.
 

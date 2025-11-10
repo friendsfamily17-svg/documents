@@ -1,5 +1,12 @@
 # ONBOARDING.md for Laravel Developers
 
+## Table of contents
+- Setup
+- Tools & resources
+- Best practices
+- Communication
+- Additional resources
+
 ## Onboarding Guide for New Laravel Developers
 
 Welcome to the Laravel development team! This document serves as a comprehensive onboarding guide to help you get started with Laravel development. It includes setup instructions, tools, resources, and best practices to ensure a smooth transition into your new role.

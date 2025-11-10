@@ -1,5 +1,12 @@
 # Quality Assurance for React Development
 
+## Table of contents
+- Overview
+- Testing strategies
+- Tools
+- Best practices
+- Conclusion
+
 ## Overview
 Quality Assurance (QA) is a critical aspect of the React development process. It ensures that the application meets the required standards of quality, functionality, and performance. This document outlines the QA processes specific to React development, including testing strategies, tools, and best practices.
 

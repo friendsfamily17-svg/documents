@@ -1,5 +1,12 @@
 # SCENARIOS.md — Flutter
 
+## Table of contents
+- Purpose
+- Scenario: Intake -> Post-Release
+- Checklist
+- Platform-specific notes
+- Next steps
+
 ## Purpose
 This file describes common project intake and delivery scenarios for Flutter projects and a concrete checklist the Flutter team should follow from project reception to delivery and post-release.
 

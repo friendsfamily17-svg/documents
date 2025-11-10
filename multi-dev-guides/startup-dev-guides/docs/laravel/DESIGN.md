@@ -1,5 +1,12 @@
 # Laravel Design Document
 
+## Table of contents
+- Overview
+- Design principles
+- MVC architecture
+- Coding standards
+- Best practices
+
 ## Overview
 
 This document outlines the design principles and guidelines for Laravel applications. It covers the Model-View-Controller (MVC) architecture, coding standards, and best practices to ensure maintainable and scalable applications.

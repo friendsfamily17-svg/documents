@@ -1,5 +1,12 @@
 # Continuous Integration and Continuous Deployment (CI/CD) for Laravel Projects
 
+## Table of contents
+- Overview
+- Pipeline stages
+- Tools and technologies
+- Best practices
+- Conclusion
+
 ## Overview
 Continuous Integration (CI) and Continuous Deployment (CD) are essential practices in modern software development that help teams deliver high-quality applications quickly and efficiently. This document outlines the CI/CD practices specifically tailored for Laravel projects, including tools, workflows, and best practices.
 

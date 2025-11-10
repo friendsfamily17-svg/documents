@@ -1,5 +1,12 @@
 # RELEASE.md for Laravel Applications
 
+## Table of contents
+- Versioning
+- Changelog
+- Pre-release checklist
+- Deployment methods
+- Post-release
+
 ## Release Process for Laravel Applications
 
 Releasing a Laravel application involves several key steps to ensure that the application is stable, secure, and ready for production. This document outlines the release process, including versioning, changelogs, and deployment strategies.

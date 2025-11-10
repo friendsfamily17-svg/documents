@@ -1,5 +1,11 @@
 # SCENARIOS.md — Python
 
+## Table of contents
+- Purpose
+- Scenario steps
+- Checklist
+- Operational notes
+
 ## Purpose
 Scenario guidance for Python projects: intake, discovery, delivery and operational checklist.
 

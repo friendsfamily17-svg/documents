@@ -1,5 +1,11 @@
 # SCENARIOS.md — Laravel
 
+## Table of contents
+- Purpose
+- Scenario steps
+- Checklist
+- Ops notes
+
 ## Purpose
 This file captures common scenarios and the team's checklist when a Laravel project is taken on by the company.
 

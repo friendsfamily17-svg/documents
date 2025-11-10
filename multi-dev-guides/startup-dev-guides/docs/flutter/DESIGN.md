@@ -1,5 +1,14 @@
 # DESIGN.md
 
+## Table of contents
+- Overview
+- UI/UX considerations
+- Widget usage
+- Design patterns
+- Theming
+- Performance
+- Documentation
+
 ## Design Principles for Flutter Applications
 
 This document outlines the design principles and guidelines for developing Flutter applications. It covers UI/UX considerations, widget usage, and design patterns to ensure a consistent and high-quality user experience.

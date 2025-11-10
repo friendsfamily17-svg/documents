@@ -1,5 +1,14 @@
 # DESIGN.md for Python Development
 
+## Table of contents
+- Overview
+- Coding standards
+- Architecture
+- Design patterns
+- Error handling
+- Testing & QA
+- Security
+
 ## Design Principles and Guidelines for Python Applications
 
 ### Overview

@@ -1,5 +1,13 @@
 # React Application Lifecycle
 
+## Table of contents
+- Overview
+- Mounting
+- Updating
+- Unmounting
+- Error handling
+- Best practices
+
 ## Overview
 The React application lifecycle refers to the series of methods that are invoked at different stages of a component's existence. Understanding these lifecycle methods is crucial for managing state, optimizing performance, and ensuring that components behave as expected throughout their lifecycle.
 

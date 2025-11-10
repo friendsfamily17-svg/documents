@@ -1,5 +1,12 @@
 # ONBOARDING.md for React Developers
 
+## Table of contents
+- Setup
+- Project structure
+- Key concepts
+- Resources
+- Best practices
+
 ## Onboarding Guide for New React Developers
 
 Welcome to the React development team! This document serves as a comprehensive onboarding guide to help you get started with React development. Below are the essential steps, tools, and resources you will need to begin your journey.

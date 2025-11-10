@@ -1,5 +1,13 @@
 # Continuous Integration and Continuous Deployment (CI/CD) for Python Projects
 
+## Table of contents
+- Overview
+- CI workflow
+- Testing
+- Deployment
+- Monitoring & feedback
+- Best practices
+
 ## Overview
 Continuous Integration (CI) and Continuous Deployment (CD) are essential practices in modern software development that help teams deliver high-quality software quickly and efficiently. This document outlines the CI/CD practices specifically tailored for Python projects, including recommended tools, workflows, and best practices.
 

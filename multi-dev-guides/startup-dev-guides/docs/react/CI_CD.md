@@ -1,5 +1,12 @@
 # Continuous Integration and Continuous Deployment (CI/CD) for React Projects
 
+## Table of contents
+- Overview
+- Workflow
+- Tools
+- Best practices
+- Conclusion
+
 ## Overview
 Continuous Integration (CI) and Continuous Deployment (CD) are essential practices in modern software development that help teams deliver high-quality applications more efficiently. This document outlines the CI/CD practices specifically tailored for React projects, including tools, workflows, and best practices.
 

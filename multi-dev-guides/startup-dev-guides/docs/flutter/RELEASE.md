@@ -1,5 +1,13 @@
 # RELEASE.md
 
+## Table of contents
+- Versioning
+- Changelog
+- Release preparation
+- Deployment strategies
+- Post-release
+- Conclusion
+
 # Flutter Application Release Process
 
 This document outlines the release process for Flutter applications, detailing versioning, changelogs, and deployment strategies to ensure a smooth transition from development to production.

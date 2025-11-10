@@ -1,5 +1,12 @@
 # Continuous Integration and Continuous Deployment (CI/CD) for Flutter Projects
 
+## Table of contents
+- Overview
+- Tools
+- Workflow
+- Best practices
+- Conclusion
+
 ## Overview
 Continuous Integration (CI) and Continuous Deployment (CD) are essential practices in modern software development that help teams deliver high-quality applications quickly and efficiently. This document outlines the CI/CD practices specifically tailored for Flutter projects, including recommended tools, workflows, and best practices.
 

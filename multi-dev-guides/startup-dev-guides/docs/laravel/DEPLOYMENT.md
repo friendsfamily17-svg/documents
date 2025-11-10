@@ -1,5 +1,13 @@
 # Laravel Deployment Guidelines
 
+## Table of contents
+- Overview
+- Pre-deployment checklist
+- Deployment environments
+- Deployment steps
+- Post-deployment
+- Rollback plan
+
 ## Overview
 This document provides comprehensive guidelines for deploying Laravel applications. It covers the necessary steps, platform-specific considerations, and recommended tools to ensure a smooth deployment process.
 

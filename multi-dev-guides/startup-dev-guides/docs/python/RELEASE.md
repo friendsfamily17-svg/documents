@@ -1,5 +1,13 @@
 # Release Process for Python Applications
 
+## Table of contents
+- Overview
+- Versioning
+- Changelog
+- Release preparation
+- Deployment strategies
+- Post-release
+
 ## Overview
 The release process for Python applications is crucial for ensuring that the software is delivered in a stable and reliable manner. This document outlines the steps involved in preparing for a release, including versioning, changelogs, and deployment strategies.
 

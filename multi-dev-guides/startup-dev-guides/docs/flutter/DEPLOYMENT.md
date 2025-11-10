@@ -1,5 +1,13 @@
 # Deployment Guidelines for Flutter Applications
 
+## Table of contents
+- Overview
+- Platforms
+- Steps per platform
+- Tools
+- Monitoring & rollback
+- Conclusion
+
 ## Overview
 This document provides guidelines for deploying Flutter applications across various platforms. It covers platform-specific considerations, deployment tools, and best practices to ensure a smooth deployment process.
 

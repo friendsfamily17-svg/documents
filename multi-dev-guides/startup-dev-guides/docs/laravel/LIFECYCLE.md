@@ -1,5 +1,13 @@
 # Laravel Application Lifecycle
 
+## Table of contents
+- Overview
+- Development
+- Testing
+- Deployment
+- Maintenance
+- Scaling
+
 ## Overview
 
 The Laravel application lifecycle consists of several stages that guide the development, deployment, and maintenance of a Laravel application. Understanding this lifecycle is crucial for developers to effectively manage their applications and ensure smooth operation.

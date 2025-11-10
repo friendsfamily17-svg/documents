@@ -1,5 +1,12 @@
 # React Design Document
 
+## Table of contents
+- Overview
+- Component architecture
+- State management
+- Styling guidelines
+- Best practices
+
 ## Overview
 
 This document outlines the design principles and guidelines for developing React applications. It covers component architecture, state management, styling conventions, and best practices to ensure maintainability and scalability.

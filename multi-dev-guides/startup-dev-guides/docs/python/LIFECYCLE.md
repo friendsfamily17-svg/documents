@@ -1,5 +1,15 @@
 # Application Lifecycle in Python
 
+## Table of contents
+- Overview
+- Stages
+- Planning
+- Design
+- Development
+- Testing
+- Deployment
+- Maintenance
+
 ## Overview
 
 The application lifecycle in Python encompasses several stages from initial development to deployment and maintenance. Understanding these stages is crucial for ensuring a smooth development process and effective project management.

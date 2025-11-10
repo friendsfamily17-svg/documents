@@ -1,5 +1,12 @@
 # Deployment Guidelines for React Applications
 
+## Table of contents
+- Overview
+- Strategies (static/SSR/container)
+- Build & deploy steps
+- Rollback plan
+- Monitoring
+
 ## Overview
 This document provides comprehensive guidelines for deploying React applications. It covers various deployment strategies, platform-specific considerations, and tools that can be utilized to ensure a smooth deployment process.
 

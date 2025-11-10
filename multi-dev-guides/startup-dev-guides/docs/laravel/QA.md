@@ -1,5 +1,12 @@
 # Quality Assurance for Laravel Development
 
+## Table of contents
+- Overview
+- Testing strategies
+- Tools
+- Best practices
+- Conclusion
+
 ## Overview
 Quality Assurance (QA) is a critical aspect of the Laravel development process. It ensures that the application meets the required standards and functions as intended. This document outlines the QA processes specific to Laravel development, including testing strategies, tools, and best practices.
 

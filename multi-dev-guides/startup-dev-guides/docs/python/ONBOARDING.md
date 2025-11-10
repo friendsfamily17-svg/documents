@@ -1,5 +1,13 @@
 # ONBOARDING.md for Python Developers
 
+## Table of contents
+- Environment setup
+- Project setup
+- Coding standards
+- Testing
+- Documentation
+- Communication
+
 ## Onboarding Guide for New Python Developers
 
 Welcome to the Python development team! This document serves as a comprehensive onboarding guide to help you get started with Python development in our organization. Below are the essential steps, tools, and resources you will need.

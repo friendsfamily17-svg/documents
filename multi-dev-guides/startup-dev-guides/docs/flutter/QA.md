@@ -1,5 +1,12 @@
 # Quality Assurance for Flutter Development
 
+## Table of contents
+- Overview
+- Testing strategies
+- Tools
+- Best practices
+- Conclusion
+
 ## Overview
 Quality Assurance (QA) is a critical aspect of Flutter development that ensures the application meets the required standards of quality before it is released. This document outlines the QA processes specific to Flutter development, including testing strategies, tools, and best practices.
 
