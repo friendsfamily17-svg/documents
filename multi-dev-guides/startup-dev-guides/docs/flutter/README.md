@@ -50,4 +50,8 @@ Join the Flutter community for support and collaboration:
 
 ---
 
-This README serves as a starting point for your Flutter development journey. For more detailed information, refer to the other documents in this directory, including design principles, lifecycle management, and deployment strategies. Happy coding!
+This README serves as a starting point for your Flutter development journey. For more detailed information, refer to the other documents in this directory, including design principles, lifecycle management, and deployment strategies.
+
+See also: `PROCESS.md` — team workflow, required documents (PRD, TSD, SDD, Test Plan, Deployment Checklist), CI/branching guidance and release checklists.
+
+Happy coding!

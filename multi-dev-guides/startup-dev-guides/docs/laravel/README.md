@@ -70,3 +70,5 @@ To get started with Laravel, you need to have the following prerequisites:
 ---
 
 This README serves as a starting point for Laravel developers. For more detailed documentation, please refer to the specific documents in this directory.
+
+See also: `PROCESS.md` — industry workflows, essential documents (PRD, TSD/SDD, Test Plan, Deployment Checklist), CI and release guidance for Laravel projects.
