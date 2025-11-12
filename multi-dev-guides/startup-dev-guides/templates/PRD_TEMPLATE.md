@@ -1,34 +1,60 @@
 # Product Requirements Document (PRD) Template
+```markdown
+# Product Requirements Document (PRD) Template
 
-## 1. Executive Summary
-Provide a brief overview of the project, its purpose, and the problem it aims to solve.
+## 🧱 What This Is
+A PRD captures the problem we’re solving, the user outcomes we expect, and the acceptance criteria that define done. It’s the single source of product scope for the team and stakeholders.
 
-## 2. Problem Definition
-Clearly define the problem that the product is addressing. Include any relevant background information.
+## 📋 Why It’s Important
+- Aligns product, engineering, design and stakeholders on scope and success metrics.
+- Reduces scope creep by documenting acceptance criteria and constraints.
+- Enables traceability from idea → implementation → measurement.
 
-## 3. Target Audience
-Identify the primary users of the product. Describe their characteristics, needs, and how they will benefit from the product.
+## 🧩 Project Understanding
+Describe the current business context and constraints:
+- Business goal and priority (e.g., improve conversion by X% in 90 days).
+- Key stakeholders and decision owners.
+- Known constraints or assumptions (budget, compliance, integrations).
 
-## 4. Product Overview
-Summarize the product's main features and functionalities. Explain how it will solve the identified problem.
+## ⚙️ Real-World Example (short)
+In a Flutter e‑commerce app: the PRD explains the checkout flow, required payment providers, acceptance criteria for 3DS and error states, target platforms (iOS/Android/web), and success metric: reduce checkout abandonment by 20% in Q1.
 
-## 5. Functional Requirements
-List the key features and functionalities of the product. Categorize them into:
-- **Must-have features (P0)**
-- **Should-have features (P1)**
-- **Nice-to-have features (P2)**
+## 🧾 Document Expectations (what to include)
+- Executive summary (1–2 paragraphs)
+- Problem statement and evidence (user quotes, support volume, analytics)
+- Target audience and personas
+- User journeys (happy path + main edge cases)
+- Success metrics & KPIs
+- Acceptance criteria per story/epic
+- Out of scope items
+- Dependencies and open questions
 
-## 6. Non-Functional Requirements
-Outline the performance, security, usability, and other non-functional requirements that the product must meet.
+## ✅ Functional Requirements (epics & stories)
+List high-level epics and attach example user stories with clear acceptance criteria. Mark priority (P0/P1/P2).
 
-## 7. Technical Requirements
-Detail any technical specifications, including technology stack, platforms, and integration needs.
+## ⚙️ Non-Functional & Technical Constraints
+- Performance targets (e.g., page load < 2s for top funnel)
+- Security/compliance requirements
+- Supported platforms and minimum versions
 
-## 8. Timeline & Milestones
-Provide a timeline for the project, including key milestones and deliverables.
+## 📅 Timeline & Milestones
+High level milestones (Discovery, Alpha, Beta, GA) and anticipated dates. Include any launch windows (market, events).
 
-## 9. Success Metrics
-Define how success will be measured. Include specific metrics and KPIs that will be used to evaluate the product's performance.
+## 📊 Success Metrics
+Define metrics, measurement plan and where they will be tracked (e.g., GA4, Amplitude). Include guardrails for negative impact.
 
-## 10. Risks & Mitigation
-Identify potential risks associated with the project and outline strategies for mitigating these risks.
+## 🔥 Risks & Mitigation
+List risks, likelihood and mitigation steps.
+
+## 🛠 Stakeholders & RACI
+Who’s Responsible, Accountable, Consulted, and Informed for the major milestones.
+
+## ✨ How It’s Used in Projects
+- PRD is the acceptance source for product and QA; engineering breaks it into tasks and links PRs to stories. During release, QA verifies acceptance criteria and PM signs off.
+
+## ✅ Best Practices / Tips
+- Keep PRD concise (1–5 pages) and link to deeper artifacts (TSD/SDD/design) as needed.
+- Add measurable acceptance criteria for each story.
+- Update the PRD when scope changes and record decisions.
+
+``` 
