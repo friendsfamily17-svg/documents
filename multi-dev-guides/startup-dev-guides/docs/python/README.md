@@ -73,3 +73,10 @@ pip freeze > requirements.txt
 This README serves as a starting point for Python developers. For more detailed documentation on design principles, lifecycle, onboarding, QA, release processes, deployment, and CI/CD practices, please refer to the respective documents in this directory.
 
 See also: `PROCESS.md` — workflow used by teams, required documents (PRD, API Spec, TSD, Test Plan), CI/testing and deployment checklists.
+
+## Templates
+
+Copy templates into your project when starting a feature or release:
+
+- Canonical templates: `../../templates/` (PRD, TSD, SDD, Test Plan, Deployment Checklist)
+- Quick templates/examples: `../../../resources/templates/` (Bug/Feature/Dev checklist)

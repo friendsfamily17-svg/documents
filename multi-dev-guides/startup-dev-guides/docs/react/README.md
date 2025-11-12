@@ -53,3 +53,10 @@ React is a popular JavaScript library for building user interfaces, particularly
 This document serves as a starting point for React developers. For more detailed information, please refer to the other documents in this directory, such as DESIGN.md, LIFECYCLE.md, ONBOARDING.md, QA.md, RELEASE.md, DEPLOYMENT.md, and CI_CD.md.
 
 See also: `PROCESS.md` — canonical workflow, essential documents (PRD, component specs, test plan), CI/branching guidance, and deployment checklist for React projects.
+
+## Templates
+
+Useful templates to copy into your project:
+
+- Canonical templates: `../../templates/` (PRD, TSD, SDD, Test Plan, Deployment Checklist)
+- Quick templates/examples: `../../../resources/templates/` (Bug/Feature/Dev checklist)

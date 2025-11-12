@@ -55,3 +55,10 @@ This README serves as a starting point for your Flutter development journey. For
 See also: `PROCESS.md` — team workflow, required documents (PRD, TSD, SDD, Test Plan, Deployment Checklist), CI/branching guidance and release checklists.
 
 Happy coding!
+
+## Templates
+
+Copy templates into your project when you start a new feature or release:
+
+- PRD, TSD, SDD, Test Plans, and Deployment Checklists: `../../templates/` (canonical)
+- Ready-to-copy examples (Bug/Feature/Dev checklist): `../../../resources/templates/` (examples and quick templates)
