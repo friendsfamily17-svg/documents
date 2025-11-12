@@ -1,111 +1,78 @@
-# Software Design Document (SDD) Template
+```markdown
+# Software Design Document (SDD) — Expanded Template
 
-## Document Control
+🧱 What This Is
+---------------
+The SDD captures detailed design and implementation guidance for a feature or system. It translates product intent (PRD) and technical constraints (TSD) into concrete component designs, data models and migration plans that engineers will implement.
 
-- **Document Version:** 1.0
-- **Last Updated:** [Insert Date]
-- **Maintained By:** [Your Team Name]
-- **Contact:** [Your Contact Information]
+📋 Why It’s Important
+---------------------
+- Documents tradeoffs and rationale for future maintenance and audits.
+- Reduces ambiguity in handoffs between architects, developers and QA.
+- Helps reviewers validate that non-functional needs (security, scale) are addressed.
 
----
+🧩 Project Understanding
+-----------------------
+- Business goal: what the feature supports and why it matters (metrics/impact).
+- Stakeholders and decision owners.
+- Constraints: timelines, regulatory, legacy integrations, performance targets.
 
-## Table of Contents
+⚙️ Real-World Example
+---------------------
+For a backend API change that adds a new resource and requires schema migration, include sequence diagrams, the migration plan (zero-downtime strategy), and how consumers will be notified.
 
-1. [Introduction](#introduction)
-2. [Scope](#scope)
-3. [References](#references)
-4. [System Overview](#system-overview)
-5. [Architectural Design](#architectural-design)
-6. [Component Design](#component-design)
-7. [Data Design](#data-design)
-8. [User Interface Design](#user-interface-design)
-9. [Security Considerations](#security-considerations)
-10. [Performance Requirements](#performance-requirements)
-11. [Deployment Architecture](#deployment-architecture)
-12. [Appendices](#appendices)
+📌 Document Expectations (required sections)
+-----------------------------------------
+- Document control: version, owner, date
+- Scope and context (what this doc covers and what it intentionally excludes)
+- High-level architecture diagram (link or embedded image)
+- Component design (for each component include responsibility, interface, examples)
+- Data model and schema changes (ERD, sample payloads, compatibility notes)
+- APIs and contracts (endpoint list, request/response examples, error cases)
+- Security & privacy (threat model, encryption, PII handling)
+- Performance & scalability considerations (targets, load profile)
+- Deployment & migration plan (order, scripts, feature flags)
+- Rollback & fallback strategies
+- Open questions and decision log (who decided and why)
 
----
+🔧 Component Design (template)
+-----------------------------
+- Component name
+  - Purpose
+  - Inputs / Outputs
+  - Public interface (sample API signature or method)
+  - Failure modes and error handling
 
-## Introduction
+🗺 Data Design
+-------------
+- ER diagrams and sample records
+- Migration steps and backward compatibility checks
 
-This Software Design Document (SDD) outlines the design specifications for the [Project Name]. It serves as a guide for developers and stakeholders to understand the architecture, components, and design decisions made during the development process.
+🔒 Security & Compliance
+------------------------
+- Authentication and authorization model
+- Data protection at rest and in transit
+- Compliance controls and audit points
 
-## Scope
+⚡ Performance & Scaling
+------------------------
+- Target metrics and how they'll be measured
+- Caching, sharding, batching strategies
 
-This document covers the design of the [Project Name] application, including its architecture, components, data structures, and user interfaces. It is intended for use by the development team, project managers, and stakeholders.
+🚚 Deployment & Migration
+-------------------------
+- Deployment steps with expected duration and owner
+- DB migration order and rollback plan
+- Feature flagging and gradual rollout plan
 
-## References
+🧭 Decision Log
+-------------
+- Track decisions with date, owner, alternatives considered, and link to tickets.
 
-- [Product Requirements Document (PRD)](link-to-prd)
-- [Technical Specification Document (TSD)](link-to-tsd)
-- [Related Documentation](link-to-other-docs)
+✅ Best Practices / Tips
+------------------------
+- Keep diagrams small and refer to them from the text.
+- Include sample requests/responses to remove ambiguity.
+- Keep the document versioned and small; link longer analysis (benchmarks, POCs).
 
-## System Overview
-
-Provide a brief overview of the system, including its purpose, key features, and target audience.
-
-## Architectural Design
-
-### 1. System Architecture
-
-- Describe the overall architecture of the system (e.g., client-server, microservices).
-- Include architecture diagrams to illustrate the design.
-
-### 2. Technology Stack
-
-- List the technologies, frameworks, and tools used in the project.
-
-## Component Design
-
-### 1. Component Overview
-
-- List and describe each major component of the system.
-- Include diagrams to show component interactions.
-
-### 2. Interface Specifications
-
-- Define the interfaces between components, including APIs and data formats.
-
-## Data Design
-
-### 1. Database Schema
-
-- Provide an overview of the database schema, including tables, relationships, and constraints.
-- Include Entity-Relationship Diagrams (ERD).
-
-### 2. Data Flow
-
-- Describe how data flows through the system, including input, processing, and output.
-
-## User Interface Design
-
-### 1. UI Overview
-
-- Describe the overall user interface design principles and guidelines.
-- Include wireframes or mockups for key screens.
-
-### 2. User Interaction
-
-- Detail how users will interact with the system, including navigation and workflows.
-
-## Security Considerations
-
-- Outline the security measures and practices implemented in the system, including authentication, authorization, and data protection.
-
-## Performance Requirements
-
-- Specify the performance requirements for the system, including response times, throughput, and scalability considerations.
-
-## Deployment Architecture
-
-- Describe the deployment architecture, including environments (development, staging, production) and deployment strategies.
-
-## Appendices
-
-- Include any additional information, diagrams, or references that support the document.
-
----
-
-## Conclusion
-
-This Software Design Document provides a comprehensive overview of the design for the [Project Name]. It serves as a reference for the development team and stakeholders throughout the project lifecycle.
+``` 

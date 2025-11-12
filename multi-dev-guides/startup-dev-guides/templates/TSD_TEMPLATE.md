@@ -5,103 +5,63 @@
 - **Document Version:** 1.0
 - **Last Updated:** [Insert Date]
 - **Maintained By:** [Your Team Name]
-- **Contact:** [Your Contact Information]
+```markdown
+# Technical Specification Document (TSD) — Expanded Template
 
----
+🧱 What This Is
+---------------
+The TSD documents the technical choices, APIs, integration points and operational requirements for the project. It is the reference for engineers implementing and operating the system.
 
-## Table of Contents
+📋 Why It’s Important
+---------------------
+- Provides repeatable, shareable technical instructions for teams.
+- Captures architecture, APIs and constraints so integrations remain stable.
 
-1. [Introduction](#introduction)
-2. [System Overview](#system-overview)
-3. [Architecture](#architecture)
-4. [Technology Stack](#technology-stack)
-5. [API Specifications](#api-specifications)
-6. [Database Design](#database-design)
-7. [Security Considerations](#security-considerations)
-8. [Performance Requirements](#performance-requirements)
-9. [Deployment Architecture](#deployment-architecture)
-10. [Integration Points](#integration-points)
-11. [Appendices](#appendices)
+🧩 Project Understanding
+-----------------------
+- Business objective, target platforms, and scale expectations.
+- Known constraints (third‑party services, latency, compliance).
 
----
+⚙️ Real-World Example
+---------------------
+For a React SPA with a Python API: include the API contract (OpenAPI link), auth flow (JWT vs cookie), caching strategy, and recommended infra (CDN, container registry).
 
-## Introduction
+📌 Document Expectations (what to include)
+---------------------------------------
+- Document control: version, owner, date
+- System overview and high-level architecture
+- Technology stack and justification
+- API specifications (OpenAPI / example endpoints)
+- Data storage choices and schema notes
+- Integration points and contract stability notes
+- Security considerations and auth model
+- Observability and monitoring hooks
+- Deployment and infra requirements
 
-**Purpose:**  
-This document outlines the technical specifications for the [Project Name]. It serves as a guide for developers and stakeholders to understand the system architecture, technology choices, and design decisions.
+🔗 API Spec / Contracts
+----------------------
+- Link to OpenAPI / proto files and include sample request/response.
+- Define backward compatibility policy and versioning rules.
 
-**Scope:**  
-This document covers the technical aspects of the project, including system architecture, technology stack, API specifications, database design, and deployment considerations.
+🗄 Database & Storage
+---------------------
+- Chosen DB, retention, backup and migration strategy.
 
----
+🔒 Security & Secrets
+---------------------
+- Secret management approach, rotation policy, and least privilege guidance.
 
-## System Overview
+📈 Observability
+----------------
+- Metrics to emit, logging formats, tracing spans and dashboads to create.
 
-Provide a brief description of the system, its purpose, and its key functionalities. Include any relevant background information that helps contextualize the project.
+🚀 Deployment & Operational Notes
+--------------------------------
+- Build artifacts, container image tagging, artifact storage, and recommended CI flow.
 
----
+✅ Best Practices / Tips
+------------------------
+- Include runnable examples and a small postman/curl example for each public API.
+- Keep API examples minimal but complete (auth header, sample payload).
 
-## Architecture
-
-Include system architecture diagrams that illustrate the overall structure of the application. Describe the components, their interactions, and how they fit into the overall system.
-
----
-
-## Technology Stack
-
-List the technologies that will be used in the project, including programming languages, frameworks, libraries, and tools. Provide a brief justification for each choice.
-
-- **Frontend:** [Technologies]
-- **Backend:** [Technologies]
-- **Database:** [Technologies]
-- **Other Tools:** [Technologies]
-
----
-
-## API Specifications
-
-Detail the API endpoints, including request and response formats, authentication methods, and error handling. Use tables or lists for clarity.
-
-| Endpoint | Method | Description | Request Body | Response |
-|----------|--------|-------------|--------------|----------|
-| /api/example | GET | Retrieves example data | N/A | JSON object |
-
----
-
-## Database Design
-
-Provide an overview of the database schema, including entity-relationship diagrams (ERD) and descriptions of tables, fields, and relationships.
-
----
-
-## Security Considerations
-
-Outline the security measures that will be implemented, including authentication, authorization, data protection, and any compliance requirements.
-
----
-
-## Performance Requirements
-
-Specify the performance metrics that the system must meet, such as response times, throughput, and scalability considerations.
-
----
-
-## Deployment Architecture
-
-Describe the deployment architecture, including server specifications, cloud services, and any relevant configurations.
-
----
-
-## Integration Points
-
-List any external systems or services that the application will integrate with, along with details on how these integrations will be achieved.
-
----
-
-## Appendices
-
-Include any additional information, such as references, glossary of terms, or related documents that support the TSD.
-
----
-
-**End of Document**
+``` 

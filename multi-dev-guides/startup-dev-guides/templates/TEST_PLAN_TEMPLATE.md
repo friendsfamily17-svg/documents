@@ -17,27 +17,61 @@ Describe the overall testing strategy, including the types of testing to be perf
 ## Test Environment
 Detail the environment in which testing will take place, including hardware, software, and network configurations.
 
-## Test Schedule
-Provide a timeline for testing activities, including key milestones and deadlines.
+```markdown
+# Test Plan — Expanded Template
 
-## Resources
-List the resources required for testing, including personnel, tools, and equipment.
+🧱 What This Is
+---------------
+The Test Plan describes the testing strategy, environments, roles, and acceptance criteria for a release or feature. It ties each acceptance criterion to explicit test cases and responsibilities.
 
-## Roles and Responsibilities
-Define the roles and responsibilities of team members involved in the testing process.
+📋 Why It’s Important
+---------------------
+- Ensures testing is predictable, repeatable and traceable to product acceptance.
+- Clarifies environments, entry/exit criteria and responsibilities so releases are low risk.
 
-## Test Cases
-Outline the test cases to be executed, including:
+🧩 Project Understanding
+-----------------------
+- What we are validating (core user journeys, performance targets, compliance needs).
+- Target devices/platforms and any device lab constraints.
+
+⚙️ Real-World Example
+---------------------
+For a Flutter checkout feature: list device matrix (iOS 15+, Android 11+), network conditions to test (3G, 4G), payment providers to validate, and negative scenarios (payment declined, timeouts).
+
+📌 Document Expectations
+-----------------------
+- Test objectives and scope
+- Test environments and configuration (staging, device lab, browsers)
+- Entry and exit criteria (when testing starts/when release can proceed)
+- Roles & responsibilities (QA owner, test data owner, release owner)
+- Test cases mapped to PRD acceptance criteria (traceability matrix)
+- Automation coverage plan and what to run in CI vs nightly
+- Regression plan and risk‑based prioritization
+- Performance, security and accessibility checks
+
+🧾 Test Case Template
+---------------------
 - Test Case ID
-- Description
+- Title
 - Preconditions
-- Steps to Execute
-- Expected Results
-- Actual Results
-- Status (Pass/Fail)
+- Steps
+- Expected Result
+- Actual Result
+- Priority & Status
 
-## Risk Assessment
-Identify potential risks associated with the testing process and outline mitigation strategies.
+🔁 Environments & Data
+-----------------------
+- How to provision test data, environment variables, and credentials.
+- Notes about ephemeral/stable staging environments.
 
-## Approval
-Include a section for stakeholders to approve the test plan, with space for signatures and dates.
+✅ Entry / Exit Criteria
+------------------------
+- Entry: build verified, smoke tests pass in staging, test data available.
+- Exit: all P0 acceptance tests pass, no P0 regressions remaining, performance smoke checks pass.
+
+✅ Best Practices / Tips
+------------------------
+- Automate the happy path and high-risk flows; run full regression nightly.
+- Keep test cases close to acceptance criteria in PRD for traceability.
+
+``` 
