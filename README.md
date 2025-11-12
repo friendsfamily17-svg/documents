@@ -2,23 +2,37 @@
 
 Welcome — this repo is a friendly handbook for interns, new hires and startup teams. It explains not just how to code, but how teams plan, document, build, test and ship software in the real world.
 
-## What's inside
+## Quick Start for Interns
+
+1. Read this `README.md` to get oriented.
+2. Open the tech playbook for your stack (links in the Navigation table below) and follow `ONBOARDING.md`.
+3. Make a small change (fix a typo or add a short example). Open a draft PR and request a mentor review — see `CONTRIBUTING.md`.
+
+## What's Inside
 
 - Canonical per‑tech playbooks: `multi-dev-guides/startup-dev-guides/docs/<tech>/` (Flutter, Python, Laravel, React).
 - Templates: PRD, TSD, SDD, Test Plans and Deployment Checklists in `multi-dev-guides/startup-dev-guides/templates/`.
-- Helpful process docs: onboarding, lifecycle, CI/CD, QA, release and scenarios.
+- Resources: `resources/templates/` (ready-to-copy templates) and `resources/diagrams/` (diagram guidance and placeholders).
 
-## Ideal for
+## How to Use These Docs
 
-- Interns and new developers learning professional workflows.
-- Startup engineers who want a quick, practical reference for releases and onboarding.
-- Product folks and PMs who need to understand developer expectations and deliverables.
+- Follow `ONBOARDING.md` in your tech folder to set up your environment.
+- Use `PROCESS.md` and `SCENARIOS.md` to understand intake-to-delivery flows.
+- Copy templates into your project repo and fill the "Project Understanding" and acceptance criteria sections before development.
 
-## Quick start
+## Navigation — quick links
 
-1. Open a tech folder (e.g., `multi-dev-guides/startup-dev-guides/docs/flutter/README.md`) and follow the `ONBOARDING.md`.
-2. Use templates in `multi-dev-guides/startup-dev-guides/templates/` when writing PRDs, SDDs, or test plans.
-3. If something is missing, check `CONTRIBUTING.md` and open an issue or submit a PR.
+| Area | Path |
+|---|---|
+| Flutter (canonical) | `multi-dev-guides/startup-dev-guides/docs/flutter/` |
+| React (canonical) | `multi-dev-guides/startup-dev-guides/docs/react/` |
+| Python (canonical) | `multi-dev-guides/startup-dev-guides/docs/python/` |
+| Laravel (canonical) | `multi-dev-guides/startup-dev-guides/docs/laravel/` |
+| Templates | `multi-dev-guides/startup-dev-guides/templates/` |
+| Resources (templates) | `resources/templates/README.md` |
+| System overview | `SYSTEM_OVERVIEW.md` |
+| Contributing guide | `CONTRIBUTING.md` |
+| Copilot prompts | `COPILOT_PROMPTS.md` |
 
 ## Contributing
 
@@ -32,6 +46,6 @@ We encourage using Copilot and AI to draft docs. See `COPILOT_PROMPTS.md` for us
 
 - Templates: `multi-dev-guides/startup-dev-guides/templates/`
 - Tech playbooks: `multi-dev-guides/startup-dev-guides/docs/`
-- Contribution guide: `CONTRIBUTING.md`
+- Resources: `resources/templates/README.md` and `resources/diagrams/README.md`
 
-If you're an intern, start with one small doc change (typo, example) and open a draft PR — we'll review it together.
+If you're an intern, start with one small doc change (typo, formatting, short example) and open a draft PR — we'll review it together.
